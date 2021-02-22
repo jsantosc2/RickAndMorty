@@ -1,0 +1,76 @@
+#fondo{
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    opacity:0.1;
+}
+body{
+   height: 880px;
+    background-image: url("foondo2 (1).png");
+}
+#main{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+#search{
+    height: 50px;
+    
+
+}
+#busqueda{
+    position: absolute;
+    height: 45px;
+  margin-top: 0px;
+    left: 80%;
+    
+}
+
+#lupa{
+   height: 50px;
+   width: 50px;
+   margin-left: 1710px;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+#botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#prev{
+    margin: 20px;
+    height: 50px;
+    width: 100px;
+    
+}
+
+#next{
+    margin: 20px;
+    height: 50px;
+    width: 100px;
+
+}
+.personaje{
+    background-color: rgb(146, 143, 143);
+    height: 150px;
+    width: 100px;
+    margin-left: 75px; margin-top: 50px; margin-right: 75px; margin-bottom: 50px;
+    text-align: center;
+}
+
+.imagen{
+    height: 75px;
+    width: 75px;
+}
+
+
+
